@@ -21,9 +21,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background: #111827;
+    background: rgba(17,24,39,0.9);
     position: sticky;
     top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
 }
 
 .logo{
@@ -62,12 +64,13 @@ nav ul li a:hover{
 }
 
 .hero-text{
-    max-width: 550px;
+    max-width: 600px;
 }
 
 .hero-text h1{
     font-size: 65px;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .hero-text span{
@@ -75,53 +78,62 @@ nav ul li a:hover{
 }
 
 .hero-text h3{
-    margin-bottom: 20px;
     color: #cbd5e1;
+    margin-bottom: 20px;
 }
 
 .hero-text p{
     line-height: 1.8;
     margin-bottom: 30px;
+    color: #94a3b8;
 }
 
 button{
-    padding: 14px 30px;
+    padding: 14px 32px;
     border: none;
     border-radius: 30px;
     background: #facc15;
     color: black;
-    cursor: pointer;
     font-size: 16px;
-    transition: 0.3s;
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 button:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
+    box-shadow: 0 0 20px #facc15;
 }
 
 .hero-image img{
-    width: 350px;
+    width: 380px;
+    transition: 0.5s;
+}
+
+.hero-image img:hover{
+    transform: scale(1.05);
 }
 
 /* Sections */
 
 section{
-    padding: 80px 8%;
+    padding: 100px 8%;
 }
 
 section h2{
-    font-size: 40px;
-    margin-bottom: 30px;
     text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #facc15;
 }
 
 /* About */
 
 .about p{
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     line-height: 1.8;
+    color: #cbd5e1;
 }
 
 /* Skills */
@@ -129,21 +141,24 @@ section h2{
 .skill-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
 .card{
     background: #1e293b;
-    padding: 30px;
+    padding: 25px;
     width: 220px;
-    text-align: center;
     border-radius: 20px;
-    transition: 0.3s;
+    text-align: center;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-12px);
+    box-shadow: 0 10px 30px rgba(250,204,21,0.3);
 }
 
 /* Projects */
@@ -158,19 +173,49 @@ section h2{
 .project-card{
     background: #1e293b;
     padding: 30px;
-    width: 300px;
+    width: 320px;
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .project-card:hover{
-    transform: scale(1.03);
+    transform: translateY(-12px);
+    box-shadow: 0 10px 30px rgba(250,204,21,0.3);
 }
 
-/* Resume */
+.project-card h3{
+    color: #facc15;
+    margin-bottom: 15px;
+}
 
-.resume{
-    text-align: center;
+.project-card p{
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+/* Experience */
+
+.exp-box{
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+.exp-box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(250,204,21,0.3);
+}
+
+.exp-box h3{
+    color: #facc15;
+}
+
+.exp-box span{
+    display: block;
+    margin: 12px 0;
+    color: #94a3b8;
 }
 
 /* Contact */
@@ -180,29 +225,22 @@ section h2{
 }
 
 .contact p{
-    margin-top: 10px;
+    margin-top: 15px;
+    color: #cbd5e1;
 }
 
 /* Footer */
 
 footer{
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     background: #111827;
+    color: #94a3b8;
 }
 
 /* Responsive */
 
 @media(max-width: 900px){
-
-    .hero{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-image img{
-        width: 250px;
-    }
 
     nav{
         flex-direction: column;
@@ -210,5 +248,51 @@ footer{
 
     nav ul{
         margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 45px;
+    }
+
+    .hero-image img{
+        width: 260px;
+    }
+}
+
+/* Social Icons */
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.social-icons a{
+    width: 70px;
+    height: 70px;
+    background: #1e293b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.social-icons a i{
+    color: #facc15;
+    font-size: 30px;
+}
+
+.social-icons a:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(250,204,21,0.5);
 }
