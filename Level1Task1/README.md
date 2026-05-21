@@ -11,6 +11,18 @@ Personal Landing Page
 - HTML
 - CSS
 
+## Features
+
+- Responsive Design
+- Clean User Interface
+- Personal Introduction Section
+- Contact Links
+- Smooth Layout
+
+## Live Demo
+
+https://ksujana23.github.io/OIBSIPSUJANA/Level1Task1/
+
 ## Author
 
 Sujana Kasarapu
