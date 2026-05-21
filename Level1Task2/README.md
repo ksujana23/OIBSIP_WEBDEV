@@ -1,0 +1,29 @@
+# Level1Task2
+
+This is Task 2 of the OASIS INFOBYTE internship.
+
+## Project
+
+Personal Portfolio Website
+
+## Technologies Used
+
+- HTML
+- CSS
+
+## Features
+
+- Responsive Design
+- About Section
+- Skills Section
+- Projects Section
+- Contact Section
+- Smooth Navigation
+
+## Live Demo
+
+https://ksujana23.github.io/OIBSIPSUJANA/Level1Task2/
+
+## Author
+
+Sujana Kasarapu
