@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #0f0f0f;
+    color: white;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+
+.hero{
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 60px;
+
+    padding: 60px;
+
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    max-width: 500px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.years{
+    font-size: 22px;
+    color: #d1d5db;
+    margin-bottom: 30px;
+}
+
+.quote{
+    font-size: 24px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* Hero Image */
+
+.hero-image img{
+
+    width: 350px;
+
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    border: 4px solid #d4af37;
+
+    box-shadow: 0 10px 30px rgba(212,175,55,0.3);
+
+    transition: 0.4s ease;
+}
+/* Biography Section */
+
+.biography{
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 80px 30px;
+}
+
+.biography h2{
+    font-size: 40px;
+    color: #d4af37;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.biography p{
+    font-size: 18px;
+
+    color: #d1d5db;
+
+    margin-bottom: 20px;
+
+    text-align: justify;
+}
+
+/* Achievements */
+
+.achievements{
+    background: #161616;
+
+    padding: 80px 30px;
+}
+
+.achievements h2{
+    text-align: center;
+
+    font-size: 40px;
+
+    color: #d4af37;
+
+    margin-bottom: 40px;
+}
+
+.achievements ul{
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.achievements li{
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+    color: #ffffff;
+
+    list-style: square;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+
+    padding: 30px;
+
+    background: black;
+
+    color: #d1d5db;
+}
+
+/* Responsive Design */
+
+@media(max-width: 768px){
+
+    .hero{
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 42px;
+    }
+
+    .quote{
+        font-size: 20px;
+    }
+
+    .hero-image img{
+        width: 280px;
+    }
+
+}
+.hero-text,
+.hero-image{
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
