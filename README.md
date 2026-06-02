@@ -36,6 +36,18 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level1Task3/
 
 ---
 
+# 🚀 Level 2 Tasks
+
+## 🔹 Task 1 – Modern Pastel Calculator
+
+### 📌 Description
+A modern and responsive calculator built using HTML, CSS, and JavaScript with keyboard support and glassmorphism UI design.
+
+### 🌐 Live Demo
+https://ksujana23.github.io/OIBSIPSUJANA/Level2Task1/
+
+---
+
 # 🛠️ Technologies Used
 
 - HTML5
@@ -50,6 +62,7 @@ OIBSIPSUJANA/
 ├── Level1Task1
 ├── Level1Task2
 ├── Level1Task3
+├── Level2Task1
 └── README.md
 
 ---
