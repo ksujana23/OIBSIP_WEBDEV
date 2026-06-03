@@ -41,7 +41,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level1Task3/
 ## 🔹 Task 1 – Modern Pastel Calculator
 
 ### 📌 Description
-A modern and responsive calculator built using HTML, CSS, and JavaScript with keyboard support and glassmorphism UI design.
+A modern calculator built using HTML, CSS, and JavaScript with keyboard support and a custom pastel-themed UI.
 
 ### 🌐 Live Demo
 https://ksujana23.github.io/OIBSIPSUJANA/Level2Task1/
@@ -51,10 +51,20 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level2Task1/
 ## 🔹 Task 2 – Tribute Page
 
 ### 📌 Description
-A modern tribute page dedicated to Dr. A.P.J Abdul Kalam featuring a premium black and gold theme, inspirational quote, biography, and elegant responsive design.
+A tribute page dedicated to Dr. A.P.J Abdul Kalam featuring a premium black-and-gold theme, inspirational quote, biography, and responsive design.
 
 ### 🌐 Live Demo
 https://ksujana23.github.io/OIBSIPSUJANA/Level2Task2/
+
+---
+
+## 🔹 Task 3 – Modern To-Do Web Application
+
+### 📌 Description
+A modern pastel-themed To-Do Web App that allows users to add, delete, and complete tasks while maintaining separate Pending and Completed task sections.
+
+### 🌐 Live Demo
+https://ksujana23.github.io/OIBSIPSUJANA/Level2Task3/
 
 ---
 
@@ -74,10 +84,24 @@ OIBSIPSUJANA/
 ├── Level1Task3
 ├── Level2Task1
 ├── Level2Task2
+├── Level2Task3
 └── README.md
+
+---
+
+# ✨ Features Across Projects
+
+- Responsive Web Design
+- Modern UI/UX
+- JavaScript Functionality
+- Interactive Components
+- GitHub Pages Deployment
+- Clean and Structured Code
 
 ---
 
 # 👩‍💻 Author
 
-Sujana Kasarapu
+**Sujana Kasarapu**
+
+B.Tech Student | Web Development Intern @ Oasis Infobyte
