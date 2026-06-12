@@ -22,7 +22,7 @@ Personal Portfolio Website
 
 ## Live Demo
 
-https://ksujana23.github.io/OIBSIPSUJANA/Level1Task2/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level1Task2/
 
 ## Author
 
