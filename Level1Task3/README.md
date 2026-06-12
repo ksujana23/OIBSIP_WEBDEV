@@ -31,7 +31,7 @@ Level1Task3/
 
 ## Live Demo
 
-https://ksujana23.github.io/OIBSIPSUJANA/Level1Task3/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level1Task3/
 
 ## Author
 
