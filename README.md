@@ -12,7 +12,7 @@ This repository contains all the tasks completed during the OASIS INFOBYTE Web D
 A simple and responsive personal landing page created using HTML and CSS.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level1Task1/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level1Task1/
 
 ---
 
@@ -22,7 +22,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level1Task1/
 A responsive portfolio website showcasing personal details, skills, projects, and contact information.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level1Task2/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level1Task2/
 
 ---
 
@@ -32,7 +32,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level1Task2/
 A temperature converter website that converts values between Celsius, Fahrenheit, and Kelvin using JavaScript.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level1Task3/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level1Task3/
 
 ---
 
@@ -44,7 +44,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level1Task3/
 A modern calculator built using HTML, CSS, and JavaScript with keyboard support and a custom pastel-themed UI.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level2Task1/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level2Task1/
 
 ---
 
@@ -54,7 +54,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level2Task1/
 A tribute page dedicated to Dr. A.P.J Abdul Kalam featuring a premium black-and-gold theme, inspirational quote, biography, and responsive design.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level2Task2/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level2Task2/
 
 ---
 
@@ -64,7 +64,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level2Task2/
 A modern pastel-themed To-Do Web App that allows users to add, delete, and complete tasks while maintaining separate Pending and Completed task sections.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level2Task3/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level2Task3/
 
 ---
 
@@ -74,7 +74,7 @@ https://ksujana23.github.io/OIBSIPSUJANA/Level2Task3/
 A pastel pink themed Login Authentication System with registration, login validation, dashboard access, logout functionality, and Local Storage authentication.
 
 ### 🌐 Live Demo
-https://ksujana23.github.io/OIBSIPSUJANA/Level2Task4/
+https://ksujana23.github.io/OIBSIP_WEBDEV/Level2Task4/
 
 ---
 
